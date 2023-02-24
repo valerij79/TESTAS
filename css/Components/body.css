@@ -1,0 +1,48 @@
+.body-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.body-description .section-title {
+    color: #74c69d;
+}
+
+.body-description .description {
+    color: #000;
+}
+
+.main .button {
+    text-align: center;
+}
+
+/* Brands Logo's  */
+
+.body .brands {
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+.brands img {
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+    .main .main-title {
+        font-size: 30px;
+    }
+   
+
+    @media (min-width: 1200px) {
+        .main .main-title {
+            font-size: 35px;
+        }
+    }
+}
